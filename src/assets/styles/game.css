@@ -1,12 +1,13 @@
-.cards{
+.cards {
     display: grid;
-    grid-template:  repeat(auto-fit, minmax(150px, 1fr)) / repeat(auto-fit, minmax(150px, 1fr)) ;
+    grid-template: repeat(auto-fit, minmax(150px, 1fr)) / repeat(auto-fit, minmax(150px, 1fr));
+    place-items: center;
     column-gap: 80px;
     row-gap: 16px;
     padding: 1em;
 }
 
-.header{
+.header {
     display: flex;
     padding: 1em;
     align-items: center;
@@ -15,6 +16,6 @@
     background-color: #ff4655;
 }
 
-.score{
+.score {
     font-size: 1.3rem;
 }
